@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: api-service
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+
+logging:
+  level:
+    org.apache.zookeeper.ClientCnxn: WARN
+
+debug: false
+
+server.port: 9797
