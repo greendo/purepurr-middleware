@@ -15,7 +15,7 @@ public class TestController {
 
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String test() {
-        return "hello, nigga, i'm middleware";
+        return "hello, i'm middleware";
     }
 
     @RequestMapping(value = "/test-api", method = RequestMethod.GET)
